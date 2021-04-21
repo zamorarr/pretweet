@@ -19,7 +19,6 @@ tokenize_twitter <- function(x, stopwords = NULL, stem_language = "porter") {
 #' @export
 tokenize_document <- function(x, pattern, stopwords = NULL, strip_punct = TRUE, stem_language = NULL) {
   # tokenize using pattern
-  if (is.null(pattern)) pattern <- re_twitter
   x <- regmatches(x, gregexpr(pattern, x, perl = TRUE))
 
   # clean text
