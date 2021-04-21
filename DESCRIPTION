@@ -1,0 +1,19 @@
+Package: pretweet
+Title: Pre-process and Tokenize Tweets
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Robert",
+           family = "Zamora",
+           role = c("aut", "cre"),
+           email = "zamora.rr@gmail.com")
+Description: Provides functions to pre-process and tokenize
+    tweets. Based on python's NTLK.TweetTokenizer().
+License: MIT + file LICENSE
+Imports: 
+    SnowballC
+Suggests: 
+    testthat (>= 2.1.0)
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 6.1.1
